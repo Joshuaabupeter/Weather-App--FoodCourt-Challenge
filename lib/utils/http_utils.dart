@@ -10,7 +10,7 @@ class HttpUtils {
   static const JsonDecoder decoder = JsonDecoder(); //to get a map rep
 
   static Future<WeatherResponse> getWeatherDetails(double lat, double long) async {
-    String weatherUri = 'https://api.openweathermap.org/data/2.5/weather?lat=$lat&lon=$long&appid=17eac07ef76b26e14b9e5511fac84a12';
+    String weatherUri = 'https://api.openweathermap.org/data/2.5/weather?lat=$lat&lon=$long&appid={Add your Api Token}';
 
     var response = await http.get(Uri.parse(weatherUri));
 
