@@ -1,6 +1,8 @@
 # foodcourt
 
-First stagei nterview
+First stage interview
+![Screenshot_20250708_181152](https://github.com/user-attachments/assets/c768243d-f49e-468f-b686-7ba040565d04)
+
 
 ## Getting Started
 
